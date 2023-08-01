@@ -12,9 +12,13 @@ Scheme is a dialect of the Lisp family of programming languages. It was created 
                                                                                                      )
 This is how inputs/outputs will appear within the interpreter (specifically in the terminal or console log)
 
-          in>  (define x 7)            in> (+ x 10)              in> x
-              out> 7                       out> 17                 out> 7          
-              
+                      in>  (define x 7)            in> (+ x 10)              in> x
+                          out> 7                       out> 17                 out> 7          
+
+Similarly, functions must be defined, and then called just like this:
+
+                            in> (define (square x) (* x x))        in> (square 2)
+                                out> FUNCTION OBJECT                   out> 4
 
           
                                                                                                      
