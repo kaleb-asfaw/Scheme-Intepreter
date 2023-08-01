@@ -10,7 +10,7 @@ Scheme is a dialect of the Lisp family of programming languages. It was created 
                        Defining Function             def craft(stick, wood):    (define (craft stick wood)
                                                        function body...            function body...  
                                                                                                      )
-This is how inputs/outputs will appear within the interpreter (specifically in the terminal or console log)
+This is how inputs/outputs will appear within the interpreter (specifically in the terminal or console log):
 
                       in>  (define x 7)            in> (+ x 10)              in> x
                           out> 7                       out> 17                 out> 7          
@@ -20,7 +20,8 @@ Similarly, functions must be defined, and then called just like this:
                             in> (define (square x) (* x x))        in> (square 2)
                                 out> FUNCTION OBJECT                   out> 4
 
-          
-                                                                                                     
+
+How it works:
+To begin, run the 'run_interpreter.py' file, which will prompt the interpreter to start up in the console log/terminal. Text entered into the terminal is parsed through, (lines 30-119 under the functions 'tokenize' and 'parse'). Parsed text is then evaluated (via the 'evaluate' function on lines 528-640). This function is responsible for processing the many built-in and user-defined functions that make up the bulk of 'built_ins.py'.
                                                                                                 
         
