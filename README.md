@@ -8,8 +8,7 @@ Scheme is a dialect of the Lisp family of programming languages. It was created 
                       Variable Assignment           |            x = 5          |         (define x 5)
                                                     |                           |
                        Defining Function            |   def craft(stick, wood): |   (define (craft stick wood)
-                                                    |     function body...      |      function body...  )
-                                                                                                     
+                                                    |     function body...      |      function body...  )                                                                                                
 This is how inputs/outputs will appear within the interpreter (specifically in the terminal or console log):
 
                       in>  (define x 7)            in> (+ x 10)              in> x
