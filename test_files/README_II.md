@@ -3,7 +3,7 @@ The interpreter also supports file imports. To utilize this functionality, we ne
   
 Instead of running the file with
                                             
-                                              $ python3 run_interpreter.py
+                                             $ python3 run_interpreter.py
 
 
 We can do:
@@ -12,5 +12,5 @@ We can do:
                                         
 For example, if we wanted to use the functions and variable definitions already declared within the definitions.scm, I would simply enter this into the command line:
 
-                                        $ python3 run_interpreter.py test_files/definitions.scm
+                                   $ python3 run_interpreter.py test_files/definitions.scm
                                         
