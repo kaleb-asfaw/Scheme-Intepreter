@@ -9,3 +9,8 @@ Instead of running the file with
 We can do:
                                                       
                                         $ python3 run_interpreter.py 'path/file/'
+                                        
+For example, if we wanted to use the functions and variable definitions already declared within the definitions.scm, I would simply enter this into the command line:
+
+                                        $ python3 run_interpreter.py test_files/definitions.scm
+                                        
