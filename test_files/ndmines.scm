@@ -1,5 +1,4 @@
-; n-d minesweeper implemented in Scheme :)
-
+; n-d minesweeper implemented in Scheme
 ; example code to run:
 ; (define game (new-game-nd (list 2 4) (list (list 0 0) (list 1 0) (list 1 1))))
 ; (game-get-board game)
