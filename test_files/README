@@ -1,0 +1,3 @@
+The interpreter also supports file imports. To utilize this functionality, first enter the console log/terminal and enter the file in as a command line argument:
+
+
