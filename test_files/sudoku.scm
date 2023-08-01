@@ -1,12 +1,7 @@
 ; sudoku solver implemented in Scheme 
-; build up a board as a list of lists, and call
-;   (solve-sudoku board)
-; to see a result.  it will return the solved board if the board can be solved,
-; or -1 otherwise
-
-; multiple boards are already defined for you below (see board1, board2,
-; board3 containing the same example boards from lecture 6, and board4
-; containing an insoluble puzzle)
+; build up a board as a list of lists, and call (solve-sudoku board)
+; if a solution exists, then a solved board will be returned. Otherwise, returns -1
+; multiple boards are already been defined (see board1, board2, board3 and board4)
 
 
 (begin
