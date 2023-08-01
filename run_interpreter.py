@@ -44,8 +44,6 @@ if __name__ == "__main__":
     # code in this block will only be executed if lab.py is the main file being
     # run (not when this module is imported)
 
-    # uncommenting the following line will run doctests from above
-    # doctest.testmod()
     interpreter(True)
     # source = "(define circle-area (lambda (r) (* 3.14 (* r r))))"
     # source2 = '(w3!|]\\d5y8[]1$)'
