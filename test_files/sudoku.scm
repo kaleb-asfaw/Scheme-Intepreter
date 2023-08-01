@@ -1,5 +1,4 @@
-; sudoku solver implemented in Scheme :)
-
+; sudoku solver implemented in Scheme 
 ; build up a board as a list of lists, and call
 ;   (solve-sudoku board)
 ; to see a result.  it will return the solved board if the board can be solved,
