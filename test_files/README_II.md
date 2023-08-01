@@ -2,9 +2,7 @@ The interpreter also supports file imports. To utilize this functionality, we ne
 
   
                                             Instead of running the file with 
-                                                
                                               $ python3 run_interpreter.py
 
                                                       We can do:
-
                                         $ python3 run_interpreter.py 'path/file'
