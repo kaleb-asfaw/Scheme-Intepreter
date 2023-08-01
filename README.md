@@ -2,6 +2,7 @@ Scheme is a dialect of the Lisp family of programming languages. It was created 
 
 
                                                               Python                 Scheme
+             
              Arithmetic (applies to any operation)             2 + 3                 (+ 2 3)
                       
                       Variable Assignment                      x = 5               (define x 5)
@@ -9,5 +10,13 @@ Scheme is a dialect of the Lisp family of programming languages. It was created 
                        Defining Function             def craft(stick, wood):    (define (craft stick wood)
                                                        function body...            function body...  
                                                                                                      )
-                        
+This is how inputs/outputs will appear within the interpreter (specifically in the terminal or console log)
+
+          in>  (define x 7)            in> (+ x 10)              in> x
+              out> 7                       out> 17                 out> 7          
+              
+
+          
+                                                                                                     
+                                                                                                
         
